@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(10, 245, 80, 0.356);
+}
+
+#container {
+    max-width: 1126px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 230px;
+    background-color: rgb(45, 189, 93);
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#main-area {
+    margin-top: 5px;
+    width: 100%;
+    height: 740px;
+    background-color: rgb(232, 232, 232);
+    background-image: url('../images/background-patterns/78-6.jpg');
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+nav {
+    width: 100%;
+    height: 68px;
+    background-color: rgba(232, 232, 232, 0.9);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    border-bottom: none;
+}
+
+nav table {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav table a {
+    text-decoration: none;
+}
+
+aside {
+    width: 30%;
+    height: 585px;
+    float: left;
+    margin: 4px 0;
+    border-right: 1px solid #888888;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+aside .box {
+    width: 100%;
+    height: 50%;
+}
+
+aside .box > .title {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    background-color: rgba(45, 189, 93, 0.9);
+    border: 1px solid #888888;
+    border-bottom: none;
+}
+
+aside .box > .title img {
+    margin: 18px;
+    float: left;
+}
+
+aside .box > .title h2 {
+    margin: 15px;
+    float: left;
+    font-size: 1.2rem;
+}
+
+aside .box > .body {
+    width: 100%;
+    height: 75%;
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding: 15px;
+    background-color: rgba(232, 232, 232, 0.9);
+}
+
+aside .box > .body ul {
+    padding-left: 30px;
+    list-style-image: url('../images/icons/fire.png'); 
+}
+
+aside .box > .body ul li {
+    padding: 2px;
+}
+
+main {
+    width: 70%;
+    height: 585px;
+    float: left;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+main h2 {
+    padding-bottom: 10px;
+}
+
+main p {
+    text-align: justify;
+}
+
+main .box-12 {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    clear: left;
+}
+
+main .box-6 {
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+main .box-6 a {
+    text-decoration: none;
+    background-color: rgba(45, 189, 91, 0.9);
+    float: left;
+    margin-top: 10px;
+    padding: 7px 12px;
+    border: 1px solid #888888;
+    color: #000000;
+}
+
+footer {
+    width: 100%;
+    height: 58px;
+    clear: both;
+    background-color: rgba(45, 189, 91, 0.9);
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    border-bottom: none;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#site-title {
+    width: 30%;
+    height: 50%;
+    float: right;
+    margin-top: 50px;
+}
+
+#site-tile h2, h4 {
+    padding: 10px 0;
+}

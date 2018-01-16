@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-left: 0;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: orangered;
+}
+
+.main-navigation {
+    padding-right: 0;
+}
+
+.main-navigation ul {
+    float: right;
+    list-style-type: none;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-navigation ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: lightgray;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.main-navigation ul li .active {
+    color: orangered;
+}
+
+.page-title {
+    background-color: orangered;
+    margin-bottom: 25px;
+}
+
+.page-title h3 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.info {
+    padding-left: 0;
+}
+
+.avatar img {
+    max-width: 100%;
+}
+
+.emphasized {
+    font-size: 2rem;
+    color: orangered;
+}
+
+.border {
+    border-right: 5px solid orangered;
+    height: 100px;
+}
+
+.alert-box {
+    border: 1px solid red;
+    padding: 20px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    color: orangered;
+}
+
+.alert-box-yellow {
+    background-color: lightyellow;
+}
+
+.alert-box-pink {
+    background-color: lightpink;
+}
+
+.alert-box-orange {
+    background-color: orange;
+}
+
+.alert-box-blue {
+    background-color: skyblue;
+}
+
+.google-map {
+    padding-left: 0;
+    display: block;
+}
+
+.address {
+    margin-bottom: 20px;
+}
+
+.address > * {
+    padding: 0;
+    margin: 0;
+}
+
+.address h5 {
+    font-size: 1rem;
+    color: orangered;
+}
+
+.phone-numbers > * {
+    padding: 0;
+    margin: 0;
+}
+
+.form-input {
+    margin-top: 10px;
+}
+
+.form-input input, .form-input textarea {
+    display: block;
+    border: 1px solid orangered;
+    padding: 5px;
+    width: 100%;
+}
+
+.form-input input::placeholder, .form-input textarea::placeholder {
+    color: orangered;
+    font-weight: 700;
+}
+
+.form-group input[type="submit"] {
+    background-color: orangered;
+    color: #FFF;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.sidebar {
+    padding-right: 0;
+}
+
+aside .title {
+    color: orangered;
+    font-size: 1rem;
+}
+
+
+.categories ul {
+    list-style-type: none;
+    transform: translateX(-40px);
+}
+
+.box {
+    width: 3rem;
+    height: 4rem;
+    background-color: orangered;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.footer {
+    margin-top: 25px;
+    background-color: orangered;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #FFF;
+}
+
+.text-muted {
+    color: lightgray;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    transform: translateX(-35px);
+}
+
+.social-icons li {
+    display: inline-block;
+}
+

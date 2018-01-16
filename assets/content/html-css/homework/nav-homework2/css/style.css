@@ -1,0 +1,44 @@
+nav {
+    width: 300px;
+    padding: 20px;
+    background-color: silver;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: orange;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0, 0.4);
+}
+
+nav .nav-title a {
+    background-color: orange;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0, 0.4);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px 8px 0 0;
+}
+
+nav .active a {
+    background-color: orange;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0, 0.4);
+}
+

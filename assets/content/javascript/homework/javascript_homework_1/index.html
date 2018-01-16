@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Javascript Homework 1</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+            <h1>Javascript homework 1</h1>
+            <p>A simple script that a prompt is asking for your first name and last name, displaying a welcome message using them as variables.</p>
+        </div>
+        <div class="demoBox">
+            <h3 id="welcomeMessage"></h3>
+        </div>
+        <div class="codeBox">
+            <p>That's the code that was used to append the text entered in prompt to the above <em>h3</em> tag.</p>
+            <pre>
+            &lt;script <span class="IDE-green">type=</span><span class="IDE-orange">"text/javascript"</span>&gt;
+            <span class="IDE-green">//Fetching the variables from prompt and HTML</span>
+            <span class="IDE-blue">var name</span> = prompt(<span class="IDE-orange">"Please enter your name: "</span>);
+            <span class="IDE-blue">var lastName</span> = prompt(<span class="IDE-orange">"Please enter your last name: "</span>);
+            <span class="IDE-blue">var welcomeMessage</span> = document.getElementById(<span class="IDE-orange">"welcomeMessage"</span>);
+                
+            <span class="IDE-green">//Creating text node</span>
+            <span class="IDE-blue">var text</span> = document.createTextNode(
+            <span class="IDE-orange">"Welcome to this website " + name + " " + lastName + "!!"</span>);
+                
+            <span class="IDE-green">//Appending text node into HTML</span>
+            welcomeMessage.<span class="IDE-blue">appendChild(text)</span>;
+            &lt;/script&gt;
+            </pre>
+        </div>
+    </div>
+    <script type="text/javascript">
+        //Fetching the variables from prompt and HTML
+        var name = prompt("Please enter your name: ");
+        var lastName = prompt("Please enter your last name: ");
+        var welcomeMessage = document.getElementById("welcomeMessage");
+        
+
+        //Creating text node
+        var text = document.createTextNode("Welcome to this website " + name + " " + lastName + "!!");
+        
+        //Appendign text note into HTML
+        welcomeMessage.appendChild(text);
+    </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: darkslategray;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border: 1px dotted gray;
+    box-sizing: border-box;
+}
+
+#left-section {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+#middle-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#middle-up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+#right-section {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%:
+}
+
+#middle-down {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 50%;;
+}
+
+#box5 {
+    width: 100%;
+    height: 40%;
+    background-color: orange;
+}
+
+#box7 {
+    width: 200%;
+    height: 10%;
+    background-color: darkcyan;
+}
+
+#box8 {
+    width: 100%;
+    height: 10%;
+    background-color: skyblue;
+}
+
+#box9 {
+    width: 100%;
+    height: 40%;
+    background-color: violet;
+}
+
+#box2 {
+    width: 100%;
+    height: 50%;
+    background-color: mediumpurple;
+}
+
+#box3 {
+    width: 50%;
+    height: 30%;
+    background-color: limegreen;
+}
+
+#box4 {
+    width: 50%;
+    height: 70%;
+    background-color: yellow;
+}
+
+#box12 {
+    width: 150%;
+    height: 30%;
+    background-color: orange;
+}
+
+#box10 {
+    width: 100%;
+    height: 25%;
+    background-color: purple;
+}
+
+#box6 {
+    width: 200%;
+    height: 45%;
+    margin-left: -100%;
+    background-color: red;
+}
+
+#containerBox1Box11 {
+    width: 200%;
+    height: 15%;
+    margin-left: -100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1 {
+    width: 50%;
+    height: 100%;
+    background-color: skyblue;
+}
+
+#box11 {
+    width: 50%;
+    height: 100%;
+    background-color: greenyellow;
+}
+

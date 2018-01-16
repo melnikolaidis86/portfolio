@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 3;
+}
+
+#left-section {
+    width: 25%;
+    height: 100vh;
+    float: left;
+}
+
+#right-section {
+    width: 75%; 
+    height: 100vh;
+    float: left;
+}
+
+#right-bottom {
+    height: 20%;
+}
+
+#tile1 {
+    width: 100%;
+    height: 35%;
+    background-color: red;
+}
+
+#tile2 {
+    width: 100%;
+    height: 80%;
+    background-color: orange;
+}
+
+#tile3 {
+    width: 100%;
+    height: 65%;
+    background-color: lightblue;
+}
+
+#tile4 {
+    width: 75%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+#tile5 {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+
